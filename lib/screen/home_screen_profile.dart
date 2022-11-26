@@ -98,15 +98,15 @@ class _HomeProfileTabState extends State<HomeProfileTab> {
                     height: defaultSpacing,
                   ),
                   const GeneralAccountInfoTile(
-                    title: "Bank Location",
-                    subTitle: "7201 Grand, Eva, Flushing NY0921",
-                    imageUrl:
-                        "https://user-images.githubusercontent.com/87476402/204075389-017beea5-50b6-4325-bdb6-741a297e4d0e.png",
-                  ),
+                      title: "Bank Location",
+                      subTitle: "7201 Grand, Eva, Flushing NY0921",
+                      imageUrl:
+                          "https://user-images.githubusercontent.com/87476402/204093838-545978f7-bc29-4afc-8091-cf557dcd3ae2.png"),
                   const GeneralAccountInfoTile(
                       title: "My Wallet",
                       subTitle: "Manage your saved wallet",
-                      imageUrl: ""),
+                      imageUrl:
+                          "https://user-images.githubusercontent.com/87476402/204093689-b748e1a8-865e-429e-8b58-30dfa27b060b.png"),
                   const SizedBox(
                     height: defaultSpacing,
                   ),
@@ -147,7 +147,7 @@ class _HomeProfileTabState extends State<HomeProfileTab> {
                   // // // ),
                   //  TODO build account title widgets
                   const ProfileAccountInfoTile(
-                    iconUrl:
+                    imageUrl:
                         "https://user-images.githubusercontent.com/87476402/204075228-b517fc14-6605-41eb-9183-f16b429eb7a7.png",
                     heading: "My Account",
                   ),
@@ -155,21 +155,23 @@ class _HomeProfileTabState extends State<HomeProfileTab> {
                     height: defaultSpacing,
                   ),
                   const ProfileAccountInfoTile(
-                    iconUrl: "",
+                    imageUrl:
+                        "https://user-images.githubusercontent.com/87476402/204093838-545978f7-bc29-4afc-8091-cf557dcd3ae2.png",
                     heading: "Notifikasi",
                   ),
                   const SizedBox(
                     height: defaultSpacing,
                   ),
                   const ProfileAccountInfoTile(
-                    iconUrl: "",
+                    imageUrl:
+                        "https://user-images.githubusercontent.com/87476402/204093893-3829db02-d792-4b1b-a7b9-a077e497d416.png",
                     heading: "Privacy",
                   ),
                   const SizedBox(
                     height: defaultSpacing,
                   ),
                   const ProfileAccountInfoTile(
-                    iconUrl: "",
+                    imageUrl: "",
                     heading: "About",
                   )
                 ],

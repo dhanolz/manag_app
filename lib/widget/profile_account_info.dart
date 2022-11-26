@@ -85,10 +85,10 @@ class GeneralAccountInfoTile extends StatelessWidget {
 // }
 
 class ProfileAccountInfoTile extends StatelessWidget {
-  final String iconUrl;
+  final String imageUrl;
   final String heading;
   const ProfileAccountInfoTile(
-      {super.key, required this.iconUrl, required this.heading});
+      {super.key, required this.imageUrl, required this.heading});
 
   @override
   Widget build(BuildContext context) {
@@ -96,8 +96,11 @@ class ProfileAccountInfoTile extends StatelessWidget {
       child: Row(
         children: [
           Padding(
-            padding: const EdgeInsets.only(left: defaultSpacing * 4),
-            child: Image.asset(iconUrl),
+            padding: const EdgeInsets.only(left: defaultSpacing * 2),
+            child: Image.network(
+              "https://user-images.githubusercontent.com/87476402/204094187-e4268bac-85d4-4387-92fa-94e5f0d868ba.png",
+              scale: 20,
+            ),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: defaultSpacing),
